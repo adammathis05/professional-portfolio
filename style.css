@@ -17,18 +17,18 @@ header {
     height: 150px;
     width: 150px;
     max-width: 50%;
-    position:absolute;
+    position: absolute;
     float: left;
     border: 3px dotted darkblue;
 
 }
 
 .my-name {
-display: inline-flex;
-position:absolute;
-color:chocolate;
-margin-top: 15px;
-margin-left: 10px;
+    display: inline-flex;
+    position: absolute;
+    color: chocolate;
+    margin-top: 15px;
+    margin-left: 10px;
 
 }
 
@@ -54,23 +54,55 @@ margin-left: 10px;
     text-decoration: none;
     margin: 40px;
     font-size: 150%;
-    color:chocolate
+    color: chocolate
 }
 
-.row {
+.content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.sidebar {
-margin-left: 20px;
-padding: 10px;
-clear: both;
-float: left;
-width: 20%;
-height: 100%;
-background-color: aqua;
+/* .sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+    height: 1000px;
+    background-color: aqua;
+    position: relative;
+
+} */
+
+.about-me {
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 50px;
+    height: 300px;
+  
+
+}
+
+
+.my-work {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    height: 300px;
+
+}
+
+.contact {
+    background-color: bisque;
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+    height: 150px;
 
 }
