@@ -13,6 +13,7 @@ header {
 
 
 .avatar {
+    margin-left: 10px;
     height: 150px;
     width: 150px;
     max-width: 50%;
@@ -28,7 +29,8 @@ header {
 display: inline-flex;
 position:absolute;
 color:chocolate;
-margin-top: 20px;
+margin-top: 15px;
+margin-left: 10px;
 
 
 }
@@ -54,6 +56,6 @@ margin-top: 20px;
 .nav-links {
     text-decoration: none;
     margin: 40px;
-    font-size: 200%;
+    font-size: 150%;
     color:chocolate
 }
