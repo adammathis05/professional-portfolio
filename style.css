@@ -21,8 +21,6 @@ header {
     float: left;
     border: 3px dotted darkblue;
 
-
-
 }
 
 .my-name {
@@ -31,7 +29,6 @@ position:absolute;
 color:chocolate;
 margin-top: 15px;
 margin-left: 10px;
-
 
 }
 
@@ -58,4 +55,22 @@ margin-left: 10px;
     margin: 40px;
     font-size: 150%;
     color:chocolate
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sidebar {
+margin-left: 20px;
+padding: 10px;
+clear: both;
+float: left;
+width: 20%;
+height: 100%;
+background-color: aqua;
+
 }
