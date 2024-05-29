@@ -7,12 +7,16 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header {
     width: 100%;
 }
 
 
-.avatar {
+/* .avatar {
     margin-left: 10px;
     height: 150px;
     width: 150px;
@@ -20,8 +24,8 @@ header {
     position: absolute;
     float: left;
     border: 3px dotted darkblue;
+} */
 
-}
 
 .my-name {
     display: inline-flex;
@@ -39,6 +43,7 @@ header {
     background-color: rgb(63, 58, 78);
     text-wrap: nowrap;
     padding: 20px;
+    color: chocolate;
 
 }
 
@@ -55,6 +60,7 @@ header {
     margin: 40px;
     font-size: 150%;
     color: chocolate
+    
 }
 
 .content {
@@ -92,17 +98,57 @@ header {
 .my-work {
     background-color: darkgray;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 50px;
     height: 300px;
 
 }
 
-.contact {
-    background-color: bisque;
+
+
+.red-pic img {
+   display: flex;
+   border: solid 4px black;
+
+}
+
+.blue-pic img {
     display: flex;
+    border: solid 4px black;
+
+}
+
+.green-pic img {
+    display: flex;
+    border: solid 4px black;
+
+}
+
+
+.contact {
+    display: inline-flex;
     justify-content: flex-start;
-    padding: 50px;
-    height: 150px;
+    min-width: 100%;
+    background-color: rgb(63, 58, 78);
+    text-wrap: nowrap;
+    padding: 20px;
+    color: chocolate;
+
+
+}
+
+.contact-links {
+    display: inline-flex;
+    justify-content: flex-end;
+
+}
+
+.contact-info {
+    list-style: none;
+    text-decoration: none;
+    margin: 40px;
+    font-size: 150%;
+    color: chocolate
 
 }
