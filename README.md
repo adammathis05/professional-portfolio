@@ -9,6 +9,6 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Usage
 
-![image of deployed site](https://github.com/adammathis05/seo-code-refactor/blob/main/assets/images/SEO%20Refactor%20Deployed%20Screenshot.png)
+![image of deployed site]([https://github.com/adammathis05/seo-code-refactor/blob/main/assets/images/SEO%20Refactor%20Deployed%20Screenshot.png](https://github.com/adammathis05/professional-portfolio/assets/169838360/effe4fa1-1652-4e50-b4cf-588650176c45))
 
 ## Credits
