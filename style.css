@@ -138,17 +138,24 @@ header {
 
 }
 
+.h2 {
+    justify-content: center;
+}
+
 .contact-links {
-    display: inline-flex;
+    display: flex;
     justify-content: flex-end;
+    width: 100%;
+    color: chocolate;
 
 }
 
 .contact-info {
+    display: flex;
     list-style: none;
     text-decoration: none;
-    margin: 40px;
-    font-size: 150%;
-    color: chocolate
+    margin: 20px;
+    font-size: 100%;
+    color: chocolate;
 
 }
