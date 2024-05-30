@@ -1,13 +1,14 @@
 # professional-portfolio
 
-##Description
+## Description
+
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-The purpose of the project was to adjust the existing code to provide several improvements for a client. I replaced div markers with semantic elements so that the purpose
-of each portion of the code is clear to both the browser and anyone viewing the code. I ensured the headings are in sequential order and that all image elements
-have alt text for accessibility. I also added a concise title so that a tab on a browser clearly displays the client name and alludes to the content on the page.
-The project was very helpful for me because it broadened my understanding of the different semantic elements - particularly when and how to use each of them.
-Usage
-Provide instructions and examples for use. Include screenshots as needed.
+- The purpose of this project was to build the structure and styling for a professional portolio webpage. I have really struggled to get the syntax correct and it is reflected in the level of quality of the submission. 
+- The project was very challenging for me - I was bogged down early in too many details and believe I made the entire project too complicated. Ultimately, I didn't have time to rework it - what would have probably been necessary was to start from scratch and rebuild. I thought I had a decent handle on flex but clearly need to spend additional time learning about it.  
 
-To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+## Usage
+
+![image of deployed site](https://github.com/adammathis05/seo-code-refactor/blob/main/assets/images/SEO%20Refactor%20Deployed%20Screenshot.png)
+
+## Credits
